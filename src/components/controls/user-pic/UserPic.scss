@@ -1,0 +1,17 @@
+@import '../../../styles/_colors';
+
+$button-text: lighten($accent-color, 65%);
+$button-disabled-background: lighten(desaturate(adjust-hue($primary-color, 1), 74.07), 24.31);
+$button-disabled-border: lighten(desaturate(adjust-hue($primary-color, 5), 89.24), 17.45);
+
+.user-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: url("../../../images/chat-form/send_arrow.svg") no-repeat;
+
+  &:disabled {
+    background: $button-disabled-background;
+    border: 1px solid $button-disabled-border;
+  }
+}

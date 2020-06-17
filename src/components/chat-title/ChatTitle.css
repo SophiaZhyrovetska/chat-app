@@ -1,0 +1,17 @@
+#chat-title {
+  display: flex;
+  align-items: center;
+  grid-area: chat-title;
+  background: #F5F5F5;
+  color: #3E3E3E;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 1px solid #DCDCDC;
+  padding: 0 20px;
+  z-index: 1;
+}
+#chat-title > img {
+  margin-right: 1em;
+}
+
+/*# sourceMappingURL=ChatTitle.css.map */

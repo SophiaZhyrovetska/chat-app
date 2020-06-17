@@ -1,0 +1,26 @@
+@import 'colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  height: 100%;
+}
+
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

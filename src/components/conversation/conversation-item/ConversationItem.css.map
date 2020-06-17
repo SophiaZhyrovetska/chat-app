@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["ConversationItem.scss","../../../styles/_colors.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA,OCKS;EDJT;EACA;EACA;;AAEF;EAEE,YCTW;;ADYb;EACE;;AAGF;EACE;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA,OClBc;EDmBd;;AAGF;EACE,OCvBc;EDwBd;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA","file":"ConversationItem.css"}

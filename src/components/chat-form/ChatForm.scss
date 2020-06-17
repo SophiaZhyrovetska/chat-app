@@ -1,0 +1,48 @@
+@import '../../styles/_colors';
+
+#chat-form {
+  grid-area: chat-form;
+  background: $accent-color;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid $border-color;
+
+  form {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    height: 54%;
+    border: 1px solid $border-color;
+    border-radius: 25px;
+    background: white;
+    margin: 0 3em;
+    padding: 0 2em;
+
+    input {
+      flex:1;
+      height: 100%;
+      border:none;
+      border-radius: 23px;
+      color: $text-color;
+      font-size: 1.7rem;
+      padding-left: 1em;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    button {
+      height: 30px;
+      width: 30px;
+      background: url("../../images/chat-form/send_arrow.svg") no-repeat;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:focus {
+      outline: none;
+    }
+  }
+
+}

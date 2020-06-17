@@ -1,0 +1,34 @@
+@import '../../../styles/_colors';
+
+#search-container {
+    display: flex;
+    flex-direction: column;
+    height: 16%;
+    background: $accent-color;
+    padding: 15px;
+    border: 1px solid $border-color;
+    border-right: none;
+    z-index: 1;
+
+    input {
+        margin-top: 6%;
+        color: $text-color;
+        outline: none;
+        font-weight: lighter;
+        height: 37%;
+        border: 1px solid $border-color;
+        border-radius: 30px;
+        padding: 1.3em 20px 1.3em 48px;
+        font-size: 1.5rem;
+        background: url('../../../images/search/search.svg') no-repeat $primary-color;
+        background-position: 15px center;
+        background-size: 20px 20px;
+    }
+    
+    input::placeholder {
+        color: $text-color;
+        font-weight: lighter;
+        font-size: 1.5rem;
+
+    }
+}

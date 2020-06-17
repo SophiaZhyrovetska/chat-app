@@ -1,0 +1,12 @@
+.user-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: url("../../../images/chat-form/send_arrow.svg") no-repeat;
+}
+.user-pic:disabled {
+  background: white;
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=UserPic.css.map */

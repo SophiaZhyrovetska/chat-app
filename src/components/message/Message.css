@@ -1,0 +1,60 @@
+.message-row {
+  display: grid;
+  grid-template-columns: 70%;
+  margin-bottom: 2em;
+}
+.message-row > .message-content {
+  display: grid;
+  margin-top: 2em;
+}
+.message-row > .message-content > img {
+  border-radius: 100%;
+  grid-row: span 2;
+  width: 48px;
+  height: 48px;
+  margin-top: 5px;
+}
+.message-row > .message-content > .message-time {
+  padding-top: 0.5em;
+  font-size: 1.3rem;
+  color: #6f6e6e;
+}
+.message-row > .message-content > .message-text {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  max-width: 100%;
+  word-break: break-word;
+  border-radius: 28px;
+  padding: 1em 0.7em;
+}
+.message-row.you-message {
+  justify-content: end;
+}
+.message-row.you-message > .message-content {
+  justify-items: end;
+}
+.message-row.you-message > .message-content > .message-text {
+  background: #E0E0E0;
+  color: #3E3E3E;
+  border: 1px solid #DCDCDC;
+}
+.message-row.you-message > .message-content > .message-time {
+  padding-right: 1em;
+}
+.message-row.other-message {
+  justify-items: start;
+}
+.message-row.other-message > .message-content {
+  grid-template-columns: 48px 1fr;
+  grid-column-gap: 15px;
+}
+.message-row.other-message > .message-content > .message-text {
+  background: #3D4151;
+  color: #FAFAFA;
+  border: 1px solid #DCDCDC;
+}
+.message-row.other-message > .message-content > .message-time {
+  padding-left: 1em;
+}
+
+/*# sourceMappingURL=Message.css.map */

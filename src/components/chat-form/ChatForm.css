@@ -1,0 +1,42 @@
+#chat-form {
+  grid-area: chat-form;
+  background: #F5F5F5;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #DCDCDC;
+}
+#chat-form form {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  height: 54%;
+  border: 1px solid #DCDCDC;
+  border-radius: 25px;
+  background: white;
+  margin: 0 3em;
+  padding: 0 2em;
+}
+#chat-form form input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  border-radius: 23px;
+  color: #6f6e6e;
+  font-size: 1.7rem;
+  padding-left: 1em;
+}
+#chat-form form input:focus {
+  outline: none;
+}
+#chat-form form button {
+  height: 30px;
+  width: 30px;
+  background: url("../../images/chat-form/send_arrow.svg") no-repeat;
+  border: none;
+  cursor: pointer;
+}
+#chat-form form button:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=ChatForm.css.map */

@@ -1,0 +1,16 @@
+#conversation-panel {
+  overflow-y: scroll;
+  grid-area: conversation-panel;
+  border-right: 1px solid #DCDCDC;
+  scrollbar-width: none;
+}
+#conversation-panel > h1 {
+  height: 12%;
+  padding-top: 1.3em;
+  padding-left: 0.5em;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: #5eb8d8;
+}
+
+/*# sourceMappingURL=ConversationPanel.css.map */
